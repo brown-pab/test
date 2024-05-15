@@ -11,5 +11,5 @@ int main()
 	Log::LogMath(a, b, '-', MyMath::Sub(a, b));
 	Log::LogMath(a, b, 'x', MyMath::Mlt(a, b));
 	Log::LogMath(a, b, '/', MyMath::Div(a, b));
-
+	Log::LogMath(a, b, '^', MyMath::Pow(a, b));
 }
