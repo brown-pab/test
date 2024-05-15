@@ -20,3 +20,8 @@ float MyMath::Div(float a, float b)
 {
 	return a / b;
 }
+
+float MyMath::Pow(float a, float b)
+{
+	return a ^ b;
+}
