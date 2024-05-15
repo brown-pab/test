@@ -1,5 +1,6 @@
 #include "MyMath.h"
 
+#include <math.h>
 
 float MyMath::Add(float a, float b)
 {
@@ -23,5 +24,5 @@ float MyMath::Div(float a, float b)
 
 float MyMath::Pow(float a, float b)
 {
-	return a ^ b;
+	return pow(a, b);
 }
