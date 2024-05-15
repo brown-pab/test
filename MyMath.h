@@ -7,6 +7,6 @@ public:
 	static float Sub(float a, float b);
 	static float Mlt(float a, float b);
 	static float Div(float a, float b);
-
+	static float Pow(float a, float b);
 
 };
